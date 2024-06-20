@@ -1,0 +1,212 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Rubik+Doodle+Shadow&display=swap');
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap');
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+
+}
+
+.main_page_bg {
+  position: relative;
+  height: 75vh;
+  width: 75%;
+  border-radius: 100px;
+
+}
+
+.home {
+  width: 100vw;
+  height: 100vb;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.new2 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.greetings {
+  position: absolute;
+  color: rgb(83, 104, 92);
+  top: 50%;
+  left: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.greetings2 {
+  color: rgb(83, 104, 92);
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.greetings3 {
+  color: rgb(83, 104, 92);
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.drug-image {
+  /* Add your styling for the drug image here */
+  /* For example: */
+  position: absolute;
+  top: 24%;
+  left: 54%;
+  border-radius: 10%;
+  /* transform: translate(-50%, -50%); */
+  width: 30vw;
+  /* Adjust width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+
+.Home-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* background-color: black; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  /* Adjust as needed */
+  width: 70%;
+  /* Ensure the boxes-container takes the full width */
+}
+
+.Contact_box {
+  background-color: #cbeee2;
+  width: 35vw;
+  height: 50vh;
+  border-radius: 4vh;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adding box shadow */
+}
+
+.rec {
+  color: rgb(83, 104, 92);
+  /* position: absolute; */
+  /* top: 70%;
+  left: 20%; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3vw;
+  margin-bottom: 6vh;
+}
+
+.Pincode_box {
+  background-color: #cbeee2;
+  width: 30vw;
+  height: 50vh;
+  border-radius: 4vh;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adding box shadow */
+}
+
+.cont_box_text_heading {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+.cont_box_text_content {
+  margin-left: 1.4vw;
+  text-align: left;
+  color: #2f2f2f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9vw;
+}
+
+.pincode_inp {
+  width: 24vw;
+  /* Adjust width as needed */
+  padding: 10px;
+  border-radius: 20px;
+  /* Adjust border radius */
+  border: 1px solid #ccc;
+  font-family: "Poppins", sans-serif;
+  /* Change font family */
+  font-size: 16px;
+  /* Change font size */
+}
+
+.pincode_inp::placeholder {
+  font-family: "Poppins", sans-serif;
+  /* Change font family */
+  color: #999;
+  /* Change placeholder color */
+}
+
+.submit_btn {
+  margin-top: 10px;
+  /* Add some space between input and button */
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  border-radius: 20px;
+  /* Adjust border radius */
+  background-color: #007bff;
+  /* Change button color */
+  color: #fff;
+  /* Change text color */
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  /* Change font family */
+  font-size: 16px;
+  /* Change font size */
+}
+
+.submit_btn:hover {
+  background-color: #0056b3;
+  /* Change button color on hover */
+}
+
+
