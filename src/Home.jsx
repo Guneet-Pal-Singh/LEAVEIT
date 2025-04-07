@@ -20,7 +20,7 @@ const Home = () => {
         <h1 className="greetings2">SUBSTANCE</h1>
         <h1 className="greetings3">ABUSE</h1>
         <img
-          src="src\Images\drug.png"
+          src={require('./Images/drug.png')}
           alt="Drug"
           className="drug-image"
         />
